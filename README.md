@@ -18,3 +18,12 @@ SENDER_EMAIL = os.environ.get('SENDER_EMAIL')
 RECIPIENT_EMAIL = os.environ.get('RECIPIENT_EMAIL')
 API_KEY = os.environ.get('API_KEY') #your BOLT api key
 DEVICE_ID  = os.environ.get('DEVICE_ID') #your device id
+
+Once these changes are done, you can start the flask app using below commands
+
+export FLASK_APP=sensor.py
+flask run
+
+go to http://localhost:5000/ to view your app and control your device
+
+
