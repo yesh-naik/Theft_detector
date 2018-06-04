@@ -1,0 +1,6 @@
+Dear User,
+We have detected intruder movement in your vault!!
+To stop the buzzing alarm at your premises, href="https://cloud.boltiot.com/remote/5c13db10-a9f9-4d67-9fff-f03a0b13288f/digitalWrite?pin=1&deviceName=BOLT3622826 . Please take required action immediately.
+
+Sincerely,
+Bolt Team

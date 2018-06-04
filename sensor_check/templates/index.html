@@ -1,0 +1,31 @@
+<html>
+    <head>
+    <style>
+.dot {
+    height: 25px;
+    width: 50px;
+    border-radius: 20%;
+    display: inline-block;
+}
+.dot,red{
+	background-color: #ff0000;
+}
+.dot,green{
+	background-color: #00FF00;
+}
+</style>
+    </head>
+    <body>
+	<form method="post" action="/">
+        <h1 align="center">Theft Detector! <span class="dot" style="background-color: {{status}}"></span></h1>
+		<div align="center">
+		
+		<input type="submit" value="start_sensor" name="start_sensor"/>
+		<input type="submit" value="alarm_stop" name="alarm_stop" />
+        <input type="submit" value="stop_sensor" name="stop_sensor" />
+        <input type="submit" value="refresh_sensor_status" name="refresh_sensor_status" />
+
+        </div>
+	</form>    
+</body>
+</html>
